@@ -1,0 +1,55 @@
+
+
+db-name : blog
+
+User 
+
+posts
+-title 255
+-timestamp (date)
+-author (varchar-56)php
+-slug 100
+-status boolean
+-image varchar 255
+-content
+-like
+-dislike
+
+categories{types}
+-name
+-slug
+
+category_posts
+-category_id
+-post_id
+
+myblog
+
+
+
+tag{specific content type}
+-name
+-slug
+
+tag_posts
+-post_id
+-tag_id
+
+for Admin
+
+Admin
+-name
+-email
+-Phone
+-status
+
+admin_role
+-admin_id
+-role_id
+
+Role
+-name
+
+
+
+
